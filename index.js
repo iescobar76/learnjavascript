@@ -107,3 +107,7 @@ user.last="Escobar";
 user.getName=function(){return this.first + " " + this.last;}
 
 console.log(user.getName());
+
+//prototyping
+
+//nice
