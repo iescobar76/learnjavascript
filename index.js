@@ -55,3 +55,31 @@ for (var idx in days){
 		continue;
 	console.log("It's " + days[idx]);
 	}
+	
+function hola(){
+	console.log("Hola Mundo");
+	}
+hola();
+console.log(" ");
+
+function greeting (name, city){
+	console.log("Hello " + name);
+	console.log(". How is the weather in " + city);
+	}
+
+var name = "Ivan";
+greeting(name,"Atizapunk");
+
+//Variable Scope
+var myVar=1;
+function writeIt(){
+	var myVar=2;
+		console.log("Variable = " +myVar);
+		writeMore();
+	}
+function writeMore(){
+	console.log("Variable = " +myVar);
+	}
+writeIt();
+
+		
