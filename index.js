@@ -40,3 +40,9 @@ for (var x=1; x <=3; x++) {
 		console.log(x + "X" + y + "=" + (x*y));
 		}
 	}
+	
+var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+
+for (var idx in days){
+	console.log("It's " + days[idx]);
+	}
