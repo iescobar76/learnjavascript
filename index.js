@@ -82,4 +82,28 @@ function writeMore(){
 	}
 writeIt();
 
-		
+var x = new Number ("5");
+console.log(x);
+var y=5;
+console.log(y);
+console.log(typeof(x));
+console.log(typeof(y));
+//Working with objects and properties
+
+var obj= {
+
+	name:"My Object",
+	value: 7,
+	getValue: function() {return this.value;}
+	};
+
+
+console.log (obj.name);
+console.log (obj.getValue());
+
+var user = new Object();
+user.first="Ivan";
+user.last="Escobar";
+user.getName=function(){return this.first + " " + this.last;}
+
+console.log(user.getName());
