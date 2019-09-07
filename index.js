@@ -111,3 +111,16 @@ console.log(user.getName());
 //prototyping
 
 //nice
+
+
+var username="Brendan";
+console.log(username);
+var output= "<username> please enter you password> ";
+output.replace("<username>", username);
+arr=new Array();
+arr[0]="one";
+arr[1]="two";
+console.log(arr);
+console.log(arr.length);
+
+
